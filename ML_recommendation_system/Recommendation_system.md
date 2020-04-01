@@ -1,6 +1,9 @@
+**Task:** Please find or propose at least two different approaches on how to recommend the most relevant content for a person. Write 2-3 sentences about each approach. You can use English or Russian for your answer.
+
+
 ## Classification of recommendation algorithms with examples
 
-1. **Non-parametric approach (memory-based)** - use information about/from users or items to create ratings computing similarities between users or items
+1. **Non-parametric approach (memory-based)** - those algorithms use information about/from users or items to create ratings computing similarities between users or items
 
     - **User-item filtering** - create similarity rating of all users -> take particular user -> find another users that are similar to that one based on similarity rating -> recommend items that those users like (people also like ...)
    
@@ -26,11 +29,11 @@
 
     - **Clustering based algorithms** (unsupervised learning algorithms) - the task is to group a set objects is such way that objects in the same group are more similar to each other than to those in another groups (clusters). We don’t need training sets.
 
-        - **K-means (centroid-based clustering)** - randomly initialize K centroids, compute the distance (e.g. euclidean) from each cluster to each point, and each point will take the number of the nearest centroid. Than centroids will shift to the center of their nearest points, and again the distances will being computed until there would be no changes of all points’ classes.
+        - **K-means (centroid-based clustering)** - randomly initialize K centroids, the distance (e.g. euclidean) are computed from each centroid to each point, and each point will take the class of the nearest centroid. Than centroids will shift to the center of their nearest points, and again the distances will being computed until there would  be no changes of all points’ classes.
         
         <p align="center"><img src = './data/k_means.png'/></p>
 
-        - **Agglomerative (hierarchical clustering)**  - this method seeks to build a hierarchy of clusters (“bottom-up” approach) which is perfectly visualized as tree or dendrogram view. The idea is very simple: find the shortest distance between points and connect them until there wouldn’t be one cluster. Then pick a threshold and cut all connections which are above (look at dendrogram), so we get N clusters where the number N depends on data and chosen threshold.
+        - **Agglomerative (hierarchical clustering)**  - this method seeks to build a hierarchy of clusters (“bottom-up” approach) which is perfectly visualized as tree or dendrogram view. The idea is very simple: find the shortest distance between points and connect them until there wouldn’t be one cluster. Then pick a threshold and cut all connections which are above the threshold (look at dendrogram), so we get N clusters where the number N depends on data and chosen threshold.
         
         <p align="center"><img src = './data/agglomerative_clustering.png'/></p>
 
