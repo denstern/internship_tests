@@ -1,4 +1,4 @@
-**Task:**Please find or propose at least two different approaches on how to estimate the time needed to resolve the task given its current state. Write 2-3 sentences about each approach. You can use English or Russian for your answer.
+**Task:** Please find or propose at least two different approaches on how to estimate the time needed to resolve the task given its current state. Write 2-3 sentences about each approach. You can use English or Russian for your answer.
 
 **Описание решений**
 В каждой компании внутренние процессы отличаются друг от друга, и поиски унифицированных решений для задачи предсказания времени на решение issues / bug сводится на нет. Поэтому приведу несколько интересных найденных, на мой взгляд, статей и вкратце расскажу, как авторы справлялись с проблемой.
